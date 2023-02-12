@@ -1,8 +1,11 @@
 import ContentLayout from "../../layouts/ContentLayout";
+import PostList from "../../services/PostList";
+import PostCreate from "../../services/PostCreate";
 const Home = () => {
   return (
     <ContentLayout>
-      <h1>Home</h1>
+      <PostCreate />
+      <PostList />
     </ContentLayout>
   );
 };
